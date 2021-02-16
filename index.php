@@ -42,7 +42,7 @@
       <div class="container chamada-banner">
         <div class="row">
           <div class="col-md-12 text-center">
-            <h2><?php echo htmlentities('<');?> Web Marketing <?php echo htmlentities('>');?></h2>
+            <h2> < Web Marketing > </h2>
             <p>Empresa voltada para desenvolvimento web e marketing digital</p>
             <a href="">Saiba Mais</a>
           </div><!--col-md-6-->
