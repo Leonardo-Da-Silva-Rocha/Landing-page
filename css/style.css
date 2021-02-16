@@ -1,0 +1,233 @@
+/**bootstrap logo*/
+.navbar-brand{
+	font-size: 23px;
+}
+
+.box{
+	position: relative;
+}
+
+section.banner{
+	padding: 210px 0;
+	position: relative;
+	min-height: 400px;
+	background-image: url('../imagens/bg.jpg');
+	width: 100;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.overlay{
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	position: absolute;
+	background:rgba(15,15,15,0.5);
+}
+
+section.banner > .container{
+	color: white;
+	position: relative;
+	z-index: 2;
+}
+
+.chamada-banner h2{
+	color: #26A599;
+	font-size: 45px;
+}
+
+.chamada-banner p{
+	margin:24px 0;
+	color: white;
+	font-size: 21px;
+	font-weight: lighter;
+}
+
+.chamada-banner a{
+	display: inline-block;
+	color: white;
+	font-size: 19px;
+	padding: 10px 18px;
+	background-color: #26A599;
+}
+
+section.cadastro-lead{
+	background:#26A599;
+	padding:20px 0;
+}
+
+section.cadastro-lead h2{
+	color: white;
+	font-size: 24px;
+	vertical-align: middle;
+	font-weight: lighter;
+}
+
+section.cadastro-lead form{
+	position: relative;
+	bottom:  5px;
+}
+
+section.cadastro-lead input[type=text]{
+	width: 85%;
+	height: 40px;
+	border:1px solid #ccc;
+	padding-left: 8px;
+}
+
+section.cadastro-lead button{
+	width: 15%;
+	height:42px;
+
+	
+}
+
+section.depoimento h2{
+	color: #4b4b4b;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+section.depoimento blockquote{
+	border-left:2px solid #4b4b4b;
+	font-size: 16px;
+}
+
+section.diferenciais{
+	margin-top: 30px;
+	padding: 30px 0;
+	background:rgb(225,225,225);
+}
+
+.diferenciais-container{
+	margin-top: 35px;
+}
+
+.diferenciais-container h3{
+	color: #26A69A;
+	font-size: 27px;
+	margin-bottom: 20px;
+}
+
+.diferenciais-container p{
+	text-align: justify;
+	margin-left: 10px;
+}
+
+.equipe-container{
+	padding: 30px 0;
+}
+
+.equipe-single{
+	margin-bottom: 15px;
+	width: 100%;
+	padding: 20px 10px;
+	border: 1px solid #ccc;
+	-webkit-box-shadow:8px 7px 5px -3px rgba(20,20,20,0.6);
+}
+
+.equipe-single p{
+	text-align: justify;
+}
+
+section.equipe h2{
+	margin: 0;
+	padding: 10px 2%;
+	background:#26A69A;
+	color: white;
+}
+
+.user-picture{
+	margin: 0 auto;
+	margin-bottom: 10px;
+	width: 30%;
+	padding-top: 30%;
+	background:#ccc;
+	background-image: url('../imagens/pessoa1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-radius:50%; 
+}
+
+.user-picture2{
+	margin: 0 auto;
+	margin-bottom: 10px;
+	width: 30%;
+	padding-top: 30%;
+	background:#ccc;
+	background-image: url('../imagens/pessoa2.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-radius:50%; 
+}
+
+.user-picture3{
+	margin: 0 auto;
+	margin-bottom: 10px;
+	width: 30%;
+	padding-top: 30%;
+	background:#ccc;
+	background-image: url('../imagens/pessoa3.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-radius:50%; 
+}
+
+.user-picture4{
+	margin: 0 auto;
+	margin-bottom: 10px;
+	width: 30%;
+	padding-top: 30%;
+	background:#ccc;
+	background-image: url('../imagens/pessoa4.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-radius:50%; 
+}
+
+
+
+
+section.final-site h2{
+	margin-bottom: 20px;
+	margin-top: 0;
+	margin: 20px 0;
+	font-size: 26px;
+	color: #4b4b4b;
+
+}
+
+section.final-site textarea{
+	height: 120px;
+}
+
+section.final-site{
+	padding: 30px 0;
+	border-top:2px solid #26A69A;
+	
+}
+
+section.final-site button{
+	margin-bottom: 15px;
+	color: white;
+	background: #26A69A;
+}
+
+footer p{
+	margin: 0;
+	font-style: inherit;
+}
+
+footer{
+	background: #26A69A;
+	padding: 20px 0;
+}
+
+@media screen and (max-width: 1024px){
+	section.cadastro-lead form{
+		position: relative;
+		top: 0;
+	}
+}
